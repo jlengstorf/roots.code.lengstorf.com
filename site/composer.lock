@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7bb86c8cef7add50067c0ca58cfad35c",
+    "hash": "0cd969d99a45db2c57427bafa6a22168",
+    "content-hash": "002955f1a4042ddfe8e432f7eb3cded6",
     "packages": [
         {
             "name": "composer/installers",
@@ -339,6 +340,70 @@
                 "environment"
             ],
             "time": "2016-09-01 10:05:43"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db.git",
+                "reference": "8f18390a83374089acfac202491e78d4938616fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db/zipball/8f18390a83374089acfac202491e78d4938616fd",
+                "reference": "8f18390a83374089acfac202491e78d4938616fd",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db",
+            "keywords": [
+                "db",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2016-04-24 08:56:12"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db-media-files",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db-media-files.git",
+                "reference": "cebf64eb528532d627284353278b284bb12e7ef1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db-media-files/zipball/cebf64eb528532d627284353278b284bb12e7ef1",
+                "reference": "cebf64eb528532d627284353278b284bb12e7ef1",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB Media File Addon for WP Sync DB",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db-media-files",
+            "keywords": [
+                "media",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2016-03-07 16:34:12"
         }
     ],
     "packages-dev": [
@@ -423,7 +488,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wp-sync-db/wp-sync-db": 20,
+        "wp-sync-db/wp-sync-db-media-files": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

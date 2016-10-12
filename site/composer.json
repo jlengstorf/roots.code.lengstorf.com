@@ -38,7 +38,9 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.6.1",
     "oscarotero/env": "^1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wp-sync-db/wp-sync-db": "dev-master@dev",
+    "wp-sync-db/wp-sync-db-media-files": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
